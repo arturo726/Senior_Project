@@ -2,7 +2,7 @@
 //  ForemanViewController.swift
 //  BeachElectricTwo
 //
-//  Created by Arturo Martinez on 4/20/16.
+//  Created by Arturo Martinez
 //  Copyright © 2016 Arturo Martinez. All rights reserved.
 //
 
