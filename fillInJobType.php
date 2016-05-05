@@ -1,5 +1,14 @@
 <?php
 
+
+// Name: Artruo Martinez
+// Due: May 4, 2016
+// Senior Project
+// Purpose: The file will check the user that is logged in and check whether or not they have been assigned
+//          a job.  If the user does have a job, then it will return the type of job.  This information is passed
+//	    to the app so it can automatically fill in the field for the user. 
+
+
 	include("connect.php");
 	include("sessionActive.php");
 
@@ -17,8 +26,9 @@
 		$value = mysql_fetch_assoc($query);
 		$Job_ID = $value['JobID'];
 		
+
 	        $sql = "select JobType from JobsAssigned where JobID='$Job_ID'";
-	
+		
 		$output = mysql_query($sql);
 	
  		$new_arr = array();
