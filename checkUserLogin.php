@@ -1,4 +1,15 @@
+
+
+
+
 <?php
+
+// Name: Artruo Martinez
+// Due: May 4, 2016
+// Senior Project
+// Purpose: The file will check the user login credentials
+//          it will detrmine whether the user is a foreman or worker, directing them to the appropriate page.
+//	    or if they are in the system. This then is returned to the iOS app. 
 
 	include("connect.php");
 	
