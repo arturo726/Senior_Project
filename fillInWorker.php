@@ -1,5 +1,14 @@
 <?php 
 
+// Name: Artruo Martinez
+// Due: May 4, 2016
+// Senior Project
+// Purpose: The file will check for workers who match the given JobType.
+//	    It will do this by seeing if their Joob_ID = o, if it equals 0, then they currently have no job
+//          Those that have jobe will then by selected and be order by DESC ordering by the amount of hours
+// 	    they have.  The workers with the most hours will be displayed first in the picker wheel.
+// 	    This information is passed back to the iOS app where it is used to populate the picker wheel.
+
 	include("connect.php");
 
         mysql_select_db("beachelectric");
