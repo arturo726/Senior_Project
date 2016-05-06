@@ -1,4 +1,7 @@
 <?php
+// Name: Judah Parham, Giovana Mejia
+// Due: May 4, 2016
+// Senior Project
 
         include("connect.php");
         include("sessionActive.php");
