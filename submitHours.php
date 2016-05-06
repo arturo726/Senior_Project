@@ -1,5 +1,13 @@
 <?php
 
+// Name: Artruo Martinez
+// Due: May 4, 2016
+// Senior Project
+// Purpose: The file will is what inserts the huors submitted by the worker.  It will take the Jobtype as 
+// 	    info to determine which part of the userInfo table to update.  If the user has a jobtype that matches it
+//          will insert the number into the column - example into plumbing hours.  If there are already is something
+//  	    in that column, it will then add to it. If that does goes through, then the job that was assigned to
+//	    to the logged in user is removed and now they are available for a job. 
 
 include("connect.php");
 include("sessionActive.php");
