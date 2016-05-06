@@ -1,5 +1,12 @@
 <?php
 
+// Name: Artruo Martinez
+// Due: May 4, 2016
+// Senior Project
+// Purpose: The file will receive the information when a forman submits a job for a worker.  It will be
+//	    inserted into the JobsAssigned tablle and it will update the useIndfo table to show
+//          that a user now has a job 
+
 include("connect.php");
 	
 	$jobType = $_POST['JobTipo'];
