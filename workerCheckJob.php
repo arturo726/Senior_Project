@@ -1,6 +1,13 @@
 <?php
 
 
+// Name: Artruo Martinez
+// Due: May 4, 2016
+// Senior Project
+// Purpose: The file will check to see if the user that los has a job.  If they do or don't, it will return 
+// 	    that to the iOS app where it will either display the job the logged in user has been assigned
+//	    or say that there are no current jobs assigned. 
+
 	include("connect.php");
 	include("sessionActive.php");
 
